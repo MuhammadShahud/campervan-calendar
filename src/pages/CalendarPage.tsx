@@ -104,7 +104,6 @@ export const CalendarPage: React.FC = () => {
         <div className="flex flex-col md:flex-row md:items-end gap-3">
           <div className="flex-1">
             <Autocomplete<Station>
-              label="Station"
               placeholder="Search station by name"
               fetcher={apiService.searchStations}
               getKey={(s) => s.id}

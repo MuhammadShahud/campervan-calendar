@@ -3,7 +3,6 @@ import type { AutocompleteProps } from "../types";
 import { useDebounce } from "../hooks/useDebounce";
 
 export function Autocomplete<T>({
-  label,
   placeholder,
   fetcher,
   getKey,
